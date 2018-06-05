@@ -5,6 +5,8 @@ let getFirstName = (fullName) => {
 }
 
 let getFirstNameSecond = (fullName) => fullName.split(" ")[0];
+console.log(getFirstName("Lee Martin"));
+console.log(getFirstNameSecond("Lee Martin"));
 
 let result = ((p1, p2) => ({sqResult: Math.pow(p1 + p2, 2), product: p1 * p2 }))(2, 4);
 console.log(`${result.sqResult} ${result.product}`)
