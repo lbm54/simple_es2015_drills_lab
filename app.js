@@ -11,7 +11,7 @@ console.log(`${result.sqResult} ${result.product}`)
 
 let arr = ['Paul', 'Birmingham', 'kimchi'];
 let spreadFunc = (name, location, favFood) => {
-
+    console.log(`${name} ${location} ${favFood} `)
 }
 spreadFunc(...arr);
 let name = 'Lee Martin';
